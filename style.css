@@ -1,0 +1,155 @@
+:root {
+    /* Primario */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --vary-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral */
+    --transparent: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    /* Fuente */
+
+    --family-1: 'Lexend Deca', sans-serif;
+    --weights-1: 400;
+    --size-1: 1.5rem;
+
+    --family-2: 'Big Shoulders Display', 'cursive';
+    --weights-2: 700;
+    --size-2: 4rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    height: 130rem;
+    width: 85%;
+    min-width: 30rem;
+    margin: 5rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 3rem;
+}
+
+.contenedor__section {
+    height: 33.3%;
+    width: 100%;
+    padding: 3rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contenedor__section img {
+    height: 4rem;
+    width: 6rem;
+}
+
+.contenedor__section-titulos {
+    font-family: var(--family-2);
+    font-weight: var(--weights-2);
+    font-size: var(--size-2);
+
+    color: var(--very-light-gray);
+}
+
+.contenedor__section-descripcion {
+    font-family: var(--family-1);
+    font-weight: var(--weights-1);
+    font-size: var(--size-1);
+
+    color: var(--transparent);
+
+    line-height: 2.2rem;
+}
+
+.contenedor__section-boton {
+    border-radius: 6rem;
+    font-weight: var(--weights-1);
+    font-size: var(--size-1);
+    height: 4.5rem;
+    width: 14.5rem;
+    border: solid var(--very-light-gray) 0.2rem;
+}
+
+.contenedor__section-boton:hover {
+    background-color: transparent;
+    color: var(--very-light-gray);
+    cursor: pointer;
+}
+
+.contenedor__section-uno .contenedor__section-boton {
+    color: var(--bright-orange);
+}
+.contenedor__section-dos .contenedor__section-boton {
+    color: var(--dark-cyan);
+}
+.contenedor__section-tres .contenedor__section-boton {
+    color: var(--vary-dark-cyan);
+}
+
+.contenedor__section-uno {
+    background-color: var(--bright-orange);
+}
+.contenedor__section-dos {
+    background-color: var(--dark-cyan);
+}
+.contenedor__section-tres {
+    background-color: var(--vary-dark-cyan);
+}
+
+
+footer {
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    font-family: var(--family-1);
+    font-weight: var(--weights-2);
+
+    position: relative;
+    bottom: 0rem;
+}
+
+@media screen and (min-width: 800px) {
+    .contenedor {
+        flex-direction: row;
+        height: 50rem;
+        width: 100rem;
+    }
+
+    .contenedor__section {
+        height: 100%;
+        width: 33.3%;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0rem;
+    }
+}
