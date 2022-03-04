@@ -16,12 +16,12 @@ This is a solution to [3-column preview card component challenge on Frontend Men
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://gonzaloyacante.github.io/Tarjeta-3-columnas/)
 
 
 ### Built with
@@ -52,7 +52,7 @@ This is a solution to [3-column preview card component challenge on Frontend Men
 
 # Frontend Mentor - Solución de componente de código QR (Español)
 
-Esta es una solución al [desafío del componente de código QR en Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Los desafíos de Frontend Mentor ayudan a mejorar tus habilidades de codificación mediante la creación de proyectos realistas.
+Esta es una solución al [desafío del componente de código QR en Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Los desafíos de Frontend Mentor ayudan a mejorar tus habilidades de codificación mediante la creación de proyectos realistas.
 
 
 ## Tabla de contenido
@@ -73,7 +73,7 @@ Esta es una solución al [desafío del componente de código QR en Frontend Ment
 
 ### Enlaces
 
-- URL de la solución: [Solución](https://gonzaloyacante.github.io/Componente-QR/)
+- URL de la solución: [Solución](https://gonzaloyacante.github.io/Tarjeta-3-columnas/)
 
 
 ### Construido con
@@ -91,12 +91,12 @@ Esta es una solución al [desafío del componente de código QR en Frontend Ment
 - JavaScript
 
 
-### Useful resources
+### Recursos útiles
 
 - [Platzi](https://platzi.com) - Platzi es una plataforma online de educación efectiva donde aprendí las habilidades para realizar este proyecto.
 
 
-## Author
+## Autor
 
 - Sitio Web - [Gonzalo Yacante](https://gonzaloyacante.github.io/portafolio/)
 - Frontend Mentor - [@GonzaloYacante](https://www.frontendmentor.io/profile/GonzaloYacante)
