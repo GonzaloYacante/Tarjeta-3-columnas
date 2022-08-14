@@ -33,6 +33,19 @@ body {
     font-size: 1.6rem;
     height: 100%;
     width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+body > h1 {
+    font-family: var(--family-2);
+    font-weight: var(--weights-2);
+    font-size: var(--size-2);
 }
 
 main {
